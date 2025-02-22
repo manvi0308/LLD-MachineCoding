@@ -1,7 +1,7 @@
 ### IntelliJ IDEA ###
 out/
-!src/Components/main/**/out/
-!src/Components/test/**/out/
+!src/AIBasedGameEngine/Components/main/**/out/
+!src/AIBasedGameEngine/Components/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -12,8 +12,8 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!src/Components/main/**/bin/
-!src/Components/test/**/bin/
+!src/AIBasedGameEngine/Components/main/**/bin/
+!src/AIBasedGameEngine/Components/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/

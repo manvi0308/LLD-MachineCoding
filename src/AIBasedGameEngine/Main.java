@@ -1,4 +1,6 @@
-import Components.*;
+package AIBasedGameEngine;
+
+import AIBasedGameEngine.Components.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,5 +20,7 @@ public class Main {
         if(board instanceof TicTaeToe){
 
         }
+
+        return new GameResult();
     }
 }
