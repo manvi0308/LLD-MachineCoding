@@ -1,26 +1,36 @@
 package AIBasedGameEngine;
 
-import AIBasedGameEngine.Components.*;
+import AIBasedGameEngine.api.GameEngine;
+import AIBasedGameEngine.gamestate.Board;
+import AIBasedGameEngine.gamestate.Cell;
+import AIBasedGameEngine.gamestate.Move;
+import AIBasedGameEngine.gamestate.Player;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        GameEngine gameEngine = new GameEngine();
+        Board board = gameEngine.start("TicTacToe");
+        int row;
+        int col;
+        // make moves in a loop
+        while (!gameEngine.isComplete(board).isOver()) {
+            Player computer = new Player("0"), opponent = new Player("X");
+            System.out.println("Make your move");
+            Scanner scanner = new Scanner(System.in);
+            row = scanner.nextInt();
+            col = scanner.nextInt();
 
-    }
+            Move oppMove = new Move(new Cell(row, col));
+            gameEngine.move(board, opponent, oppMove);
 
-    public Board start(){
-        return new Board();
-    }
-
-    public void move(Board board, Player player, Move move){
-
-    }
-
-    public GameResult isComplete(Board board){
-        // whether game is complete or not complete
-        if(board instanceof TicTaeToe){
-
+            if (!gameEngine.isComplete(board).isOver()) {
+                Move computerMove = gameEngine.suggestMove(board);
+                gameEngine.move(board, computer, computerMove);
+            }
         }
+        System.out.println("Game result " + gameEngine.isComplete(board));
 
-        return new GameResult();
     }
 }
