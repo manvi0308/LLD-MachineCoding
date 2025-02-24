@@ -1,0 +1,15 @@
+
+FLOW
+Publisher publishes message to a specific topic.
+All the subscribers for that topic will receive the published message.
+
+
+CLASSES
+Message -> Message to be published and received by subscribers
+Topic -> Topic to which messages can be published.
+Subscriber -> Interface for all the subscribers.
+Publisher -> One who will publishes the message to a specific topic
+
+PrintSubscriber --> Implementation of Subscriber
+PubSubSystem --> Main class to manage topic, subscribers and message publishing.
+
