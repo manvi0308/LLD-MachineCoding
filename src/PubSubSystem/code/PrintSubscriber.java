@@ -1,4 +1,4 @@
-package PubSubSystem;
+package PubSubSystem.code;
 
 public class PrintSubscriber implements Subscriber{
     private final String name;

@@ -1,6 +1,6 @@
-package ParkingLot;
+package ParkingLot.code;
 
-import ParkingLot.vehicletype.Vehicle;
+import ParkingLot.code.vehicletype.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;

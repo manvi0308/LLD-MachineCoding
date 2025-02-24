@@ -1,4 +1,4 @@
-package ParkingLot.vehicletype;
+package ParkingLot.code.vehicletype;
 
 public enum VehicleType {
     CAR,

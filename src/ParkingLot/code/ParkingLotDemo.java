@@ -1,9 +1,9 @@
-package ParkingLot;
+package ParkingLot.code;
 
-import ParkingLot.vehicletype.Bus;
-import ParkingLot.vehicletype.Car;
-import ParkingLot.vehicletype.Motorcycle;
-import ParkingLot.vehicletype.Vehicle;
+import ParkingLot.code.vehicletype.Bus;
+import ParkingLot.code.vehicletype.Car;
+import ParkingLot.code.vehicletype.Motorcycle;
+import ParkingLot.code.vehicletype.Vehicle;
 
 public class ParkingLotDemo {
     public static void main(String[] args) {

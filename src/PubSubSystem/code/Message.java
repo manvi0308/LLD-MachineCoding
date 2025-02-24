@@ -1,4 +1,4 @@
-package PubSubSystem;
+package PubSubSystem.code;
 
 public class Message {
     private final String content;

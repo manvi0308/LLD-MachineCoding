@@ -1,8 +1,8 @@
-package ParkingLot;
+package ParkingLot.code;
 
 import java.util.ArrayList;
 import java.util.List;
-import ParkingLot.vehicletype.*;
+import ParkingLot.code.vehicletype.*;
 public class ParkingLevel {
     private final  int floor;
     private final List<ParkingSpot> parkingSpots;

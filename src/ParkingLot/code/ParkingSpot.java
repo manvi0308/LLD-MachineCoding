@@ -1,7 +1,7 @@
-package ParkingLot;
+package ParkingLot.code;
 
-import ParkingLot.vehicletype.Vehicle;
-import ParkingLot.vehicletype.VehicleType;
+import ParkingLot.code.vehicletype.Vehicle;
+import ParkingLot.code.vehicletype.VehicleType;
 
 public class ParkingSpot {
     private final int spotNumber;

@@ -1,4 +1,4 @@
-package ParkingLot.vehicletype;
+package ParkingLot.code.vehicletype;
 
 public abstract class Vehicle {
     protected String licensePlate;

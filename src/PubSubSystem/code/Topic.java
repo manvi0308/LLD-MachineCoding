@@ -1,6 +1,5 @@
-package PubSubSystem;
+package PubSubSystem.code;
 
-import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArraySet;
 
