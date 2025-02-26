@@ -9,9 +9,7 @@ Welcome to the **Low-Level Design (LLD) Repository**! This repository contains d
   - [Publisher-Subscriber System](#publisher-subscriber-system)
   - [Car Booking System](#car-booking-system)
 - [Technologies Used](#technologies-used)
-- [How to Use](#how-to-use)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
