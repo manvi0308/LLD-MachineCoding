@@ -1,6 +1,3 @@
-Here is your well-formatted Markdown file, optimized for readability and IntelliJ Markdown preview:
-
-```markdown
 # Vending Machine Design
 
 ## Inventory
