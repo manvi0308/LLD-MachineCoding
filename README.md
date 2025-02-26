@@ -32,7 +32,7 @@ A scalable parking lot management system that supports:
 
 **Design Patterns Used:** Singleton, Factory, Strategy
 
-📌 [View Implementation]('https://github.com/manvi0308/LLD-MachineCoding/tree/main/src/ParkingLot')
+📌 [View Implementation](https://github.com/manvi0308/LLD-MachineCoding/tree/main/src/ParkingLot)
 
 ---
 
@@ -46,7 +46,7 @@ A vending machine implementation supporting:
 
 **Design Patterns Used:** Singleton, State.
 
-📌 [View Implementation]('https://github.com/manvi0308/LLD-MachineCoding/tree/main/src/StateDesignPattern/VendingMachine')
+📌 [View Implementation](https://github.com/manvi0308/LLD-MachineCoding/tree/main/src/StateDesignPattern/VendingMachine)
 
 ---
 
@@ -58,7 +58,7 @@ A distributed event-driven system that includes:
 
 **Design Patterns Used:** Observer, Mediator
 
-📌 [View Implementation]('https://github.com/manvi0308/LLD-MachineCoding/tree/main/src/PubSubSystem')
+📌 [View Implementation](https://github.com/manvi0308/LLD-MachineCoding/tree/main/src/PubSubSystem)
 
 ---
 
@@ -71,7 +71,7 @@ A ride-booking system similar to Uber, featuring:
 
 **Design Patterns Used:** Factory, Strategy, Observer
 
-📌 [View Implementation]('https://github.com/manvi0308/LLD-MachineCoding/tree/main/src/CarBookingSystem')
+📌 [View Implementation](https://github.com/manvi0308/LLD-MachineCoding/tree/main/src/CarBookingSystem)
 
 ---
 
